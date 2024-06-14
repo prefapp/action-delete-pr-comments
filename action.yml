@@ -1,0 +1,14 @@
+name: 'Delete PR comments'
+description: 'Delete all comments on a PR'
+inputs:
+  pr_number:
+    description: 'Pull request number'
+    required: false
+    default: ${{ github.event.issue.number }}
+  filter:
+    description: 'Filter comments by this string'
+    required: false
+    default: ''
+runs:
+  using: 'node20'
+  main: 'index.js'

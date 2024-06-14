@@ -1,0 +1,17 @@
+name: Run Release Please
+on:
+    push:
+        branches:
+            - main
+jobs:
+    release-please:
+      name: Release Please Manifest
+      runs-on: ubuntu-latest
+      steps:
+
+        - uses: google-github-actions/release-please-action@v4
+          id: release
+          with:
+            target-branch: main
+            release-type: node
+            prerelease: true
