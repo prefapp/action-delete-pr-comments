@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.2...v1.0.3) (2024-06-14)
+
+
+### Bug Fixes
+
+* fix bug with github authentication ([659de01](https://github.com/prefapp/action-delete-pr-comments/commit/659de015c350a2de1a90f18bee95cc056498c77e))
+
 ## [1.0.2](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.1...v1.0.2) (2024-06-14)
 
 
