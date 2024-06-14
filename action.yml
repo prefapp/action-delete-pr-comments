@@ -4,7 +4,7 @@ inputs:
   pr_number:
     description: 'Pull request number'
     required: false
-    default: ${{ github.event.issue.number }}
+    default: ${{ github.event.pull_request.number }}
   filter:
     description: 'Filter comments by this string'
     required: false
