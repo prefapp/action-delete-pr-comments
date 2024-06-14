@@ -32119,8 +32119,10 @@ async function main() {
         debug('Parsing inputs')
         // `github_token` input defined in action metadata file
         const token = core.getInput('github_token');
+        if (!token) throw new Error('Missing `github_token` input');
         // `pr_number` input defined in action metadata file
         const prNumber = core.getInput('pr_number');
+        if (!prNumber) throw new Error('Missing `pr_number` input');
 
         debug('Initializing octokit')
         // List the pull request comments in the issue
@@ -32145,7 +32147,15 @@ async function main() {
 
         debug('Deleting comments')
         // Delete the comments
-        // ...
+
+        for (const comment of filteredComments) {
+            await octokit.rest.issues.deleteComment({
+                owner,
+                repo,
+                comment_id: comment.id
+            });
+        }
+
     } catch (error) {
         core.setFailed(error.message);
     }

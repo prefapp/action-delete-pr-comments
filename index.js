@@ -38,7 +38,15 @@ async function main() {
 
         debug('Deleting comments')
         // Delete the comments
-        // ...
+
+        for (const comment of filteredComments) {
+            await octokit.rest.issues.deleteComment({
+                owner,
+                repo,
+                comment_id: comment.id
+            });
+        }
+
     } catch (error) {
         core.setFailed(error.message);
     }
