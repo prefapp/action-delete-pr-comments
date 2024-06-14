@@ -31083,11 +31083,13 @@ const github = __nccwpck_require__(5438);
 
 async function main() {
     try {
+        const token = core.getInput('github_token');
+
         // `pr_number` input defined in action metadata file
         const prNumber = core.getInput('pr_number');
 
         // List the pull request comments in the issue
-        const octokit = github.getOctokit(this.ctx.token);
+        const octokit = github.getOctokit(token);
 
         const { data: comments } = await octokit.rest.issues.listComments({
             owner: github.context.repo.owner,

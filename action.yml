@@ -9,6 +9,10 @@ inputs:
     description: 'Filter comments by this string'
     required: false
     default: ''
+  github_token:
+    description: "GitHub token"
+    required: false
+    default: ${{ github.token }}
 runs:
   using: 'node20'
   main: 'dist/index.js'
