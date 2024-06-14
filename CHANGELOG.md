@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.1...v1.0.2) (2024-06-14)
+
+
+### Bug Fixes
+
+* Add dist folder ([013244a](https://github.com/prefapp/action-delete-pr-comments/commit/013244a944f69dceb00b1e8737202c2ec40b1abd))
+
 ## [1.0.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.0...v1.0.1) (2024-06-14)
 
 
