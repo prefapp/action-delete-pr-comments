@@ -32126,10 +32126,13 @@ async function main() {
         // List the pull request comments in the issue
         const octokit = github.getOctokit(token);
 
-        debug('Fetching comments')
+        const { owner, repo } = github.context.repo;
+
+        debug(`Fetching comments in https://github.com/${owner}/${repo}/pull/${prNumber}`)
+
         const { data: comments } = await octokit.rest.issues.listComments({
-            owner: github.context.repo.owner,
-            repo: github.context.repo.repo,
+            owner,
+            repo,
             issue_number: prNumber
         });
 
