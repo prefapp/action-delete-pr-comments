@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.0...v1.0.1) (2024-06-14)
+
+
+### Bug Fixes
+
+* Add workflows and fix bug with async calls ([ee7e612](https://github.com/prefapp/action-delete-pr-comments/commit/ee7e6126a7b2ce1096be9097697e290213c0ed83))
+
 ## 1.0.0 (2024-06-14)
 
 
