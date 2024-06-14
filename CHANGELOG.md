@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.3...v1.1.0) (2024-06-14)
+
+
+### Features
+
+* add debug logs ([603acb3](https://github.com/prefapp/action-delete-pr-comments/commit/603acb3a38cb12662c99920f2edb60dceb3ab99c))
+
 ## [1.0.3](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.2...v1.0.3) (2024-06-14)
 
 
