@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.2.0...v1.2.1) (2024-06-14)
+
+
+### Bug Fixes
+
+* fix non deleting comments ([31baa8b](https://github.com/prefapp/action-delete-pr-comments/commit/31baa8b99fcfdf70012727c439c1fcb3a32dd172))
+
 ## [1.2.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.1.1...v1.2.0) (2024-06-14)
 
 
