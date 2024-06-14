@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.1.1...v1.2.0) (2024-06-14)
+
+
+### Features
+
+* Add required input check ([1f2f223](https://github.com/prefapp/action-delete-pr-comments/commit/1f2f2230be132423132ec95b2a73e4294065bfad))
+
 ## [1.1.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.1.0...v1.1.1) (2024-06-14)
 
 
