@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.1.0...v1.1.1) (2024-06-14)
+
+
+### Bug Fixes
+
+* create a more explicit debug message ([dab0b5b](https://github.com/prefapp/action-delete-pr-comments/commit/dab0b5bd58a4209d02deda5add198ff3a34aed29))
+
 ## [1.1.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.0.3...v1.1.0) (2024-06-14)
 
 
