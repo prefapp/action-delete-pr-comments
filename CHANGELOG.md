@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.2.1...v1.3.0) (2024-06-20)
+
+
+### Features
+
+* Update workflows [#9](https://github.com/prefapp/action-delete-pr-comments/issues/9) ([80d4a55](https://github.com/prefapp/action-delete-pr-comments/commit/80d4a55cafa92d934aa593fd60220dd45e9b7909))
+
 ## [1.2.1](https://github.com/prefapp/action-delete-pr-comments/compare/v1.2.0...v1.2.1) (2024-06-14)
 
 
