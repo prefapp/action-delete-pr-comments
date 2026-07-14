@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.3.0...v1.4.0) (2026-07-14)
+
+
+### Features
+
+* update to node24 ([a0d3d33](https://github.com/prefapp/action-delete-pr-comments/commit/a0d3d338bcce425d339540d1dec644e7c6c9d29f))
+* update to node24 ([6cb458f](https://github.com/prefapp/action-delete-pr-comments/commit/6cb458f5628b9b64c0c12a417e983695ad6a4024))
+* update to node24 ([b214acf](https://github.com/prefapp/action-delete-pr-comments/commit/b214acf9164d8987cda14f2675c3af64c3c519d6))
+
 ## [1.3.0](https://github.com/prefapp/action-delete-pr-comments/compare/v1.2.1...v1.3.0) (2024-06-20)
 
 
